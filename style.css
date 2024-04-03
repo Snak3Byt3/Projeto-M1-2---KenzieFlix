@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: black;
+}
+
+header {
+    color: white;
+    align-content: center;
+}
+
+
+#centro {
+    padding: 0 0 0 45%;
+    width: 320px;
+}
+
+h1 {
+    padding: 0 0 0 43%;
+    margin: 80px 0 0 0;
+    font-size: 38px;
+}
+
+section { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-caixas {
+    width: 1000px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 80px 0 0 0;
+}
+
+.caixa {
+    width: 20%;
+}
+
+.caixa img {
+    border: solid;
+    border-radius: 15px;
+}
+
+.caixa > img { 
+    width: 100%;
+}
+
+p {
+    color: gray;
+}
+
+#aline {
+    margin: 20px 0 0 82px;
+}
+
+#pedrinho { 
+    margin: 20px 0 0 65px;
+}
+
+#julia {
+    margin: 20px 0 0 80px;
+}
+#add-perfil {
+    margin: 20px 0 0 45px;
+}
+
+footer { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao {
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    width: 230px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 100px 0 0 0;
+}
+
+.caixa:hover img {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.caixa:hover p {
+    color: white;
+}
+
+#botao:hover {
+    color: black;
+    background-color: white;
+}
